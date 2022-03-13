@@ -1,4 +1,4 @@
-package com.daikmont;
+package com.daikmont.study;
 
 class Maths {
     public int maxFinder(int a, int b) {

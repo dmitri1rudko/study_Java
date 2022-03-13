@@ -1,4 +1,4 @@
-package com.daikmont;
+package com.daikmont.study;
 import java.util.*;
 
 public class Main {

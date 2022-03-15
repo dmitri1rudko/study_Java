@@ -17,7 +17,7 @@ public class Class2 {
 
         if(zero < numA && numA < numB){
             if (numA%2==0 && numB%2==0) {
-                for (int i = 0; i < ; i++) {
+                for (int i = 0; i < 0; i++) {
                     
                 }
             }

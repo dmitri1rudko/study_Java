@@ -19,23 +19,5 @@ public class Class3 {
 // Средняя арифметическая: 3.0
         Scanner scanner = new Scanner(System.in);
 
-        double sum = 0;
-        for (int i = 1; i>0; i++) {
-            System.out.println("Введите число: ");
-            int number = scanner.nextInt();
-            if (number>0){
-                number = i;
-                sum += number;
-            }else{
-                System.out.println("Вы ввели 0 или отрицательное число");
-                System.out.println("Кол-во введенных вами цифр :" + number);
-                System.out.println("Сумма: " + sum);
-                double am = sum/number;
-                System.out.println("Средняя арифметическая: " + am);
-
-                i = -1;
-            }
-        }
-        System.out.println("Program ended");
     }
 }

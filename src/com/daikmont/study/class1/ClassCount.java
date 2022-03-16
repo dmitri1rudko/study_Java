@@ -1,8 +1,8 @@
-package com.daikmont.study;
+package com.daikmont.study.class1;
 
 import java.util.Scanner;
 
-public class Class3 {
+public class ClassCount {
     public static void main(String[] args) {
 //        0 пока вы не напишите цифру ноль вы должны принимать цифры.
 //        после того как вы пропишите ноль, вы должны вывести кол-во введенных вами чисел
@@ -18,6 +18,18 @@ public class Class3 {
 // Сумма: 15
 // Средняя арифметическая: 3.0
         Scanner scanner = new Scanner(System.in);
-
+        int sum = 0;
+        int count = -1;
+        for(int i = 0; i<1; i--){
+            System.out.println("Enter number: ");
+            int A = scanner.nextInt();
+            sum = sum + A;
+            count++;
+            if(A<=0){
+                i = 2;
+                System.out.println("Кол-во введенных вами цифр :" + count);
+                System.out.println("Сумма: " + sum);
+            }
+        }
     }
 }

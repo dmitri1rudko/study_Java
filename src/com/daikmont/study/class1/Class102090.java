@@ -18,8 +18,8 @@ public class Class102090 {
         int A = sc.nextInt();
         int B = sc.nextInt();
         int sum = 0;
-        for (int i = A; i<=B; i++)  {
-            if (i%2==0) {
+        for (int i = A; i <= B; i++)  {
+            if (i % 2 == 0) {
                 System.out.print(i + " ");
                 sum = sum + i;
             }

@@ -16,10 +16,11 @@ public class Class102075 {
         int A = scanner.nextInt();
         int B = scanner.nextInt();
         int sum = 0;
-        for(int i = A; i<=B;i++){
-            if(i%2!=0){
+        for(int i = A; i <= B; i++){
+            if(i % 2 != 0){
                 sum = sum + i;
             }
-        }System.out.println(sum);
+        }
+        System.out.println(sum);
     }
 }
